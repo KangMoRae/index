@@ -11,7 +11,6 @@ body{
     height:1000px;
 }
 .mainSlider h1{
-    z-index:1;
 }
 .mainSlider h4{
 }
@@ -160,10 +159,10 @@ body{
 .logoTxt{
     display:inline-block;
     padding-left:80px;
-    padding-top:80px;
+    padding-top:50px;
 }
-.logoTxt h4{
-    font-size:22px;
+.logoTxt h2{
+    font-size:30px;
 }
 .logoTxt p{
     font-size:18px;
@@ -188,7 +187,8 @@ body{
 }
 .proTxt li span{
     font-weight:bold;
-    margin-right:20px;
+    display:inline-block;
+    width:80px;
 }
 
 .eduTxt{
@@ -223,7 +223,7 @@ body{
 .mainCon02{
     margin-top:120px;
     background:url(../images/con02mainImg.png) no-repeat;
-    background-position:left bottom;
+    background-position:center bottom;
     height:2040px;
 }
 .mainCon02 .inner{
@@ -283,6 +283,12 @@ body{
 }
 .moreBtn a{
     display:block;
+    transition:0.5s;
+}
+.moreBtn a:hover{
+    background:#6e1427;
+    color:#fff;
+    transition:0.5s;
 }
 
 
@@ -290,7 +296,7 @@ body{
 .mainCon03{
     margin-top:120px;
     background:url(../images/con03mainImg.png) no-repeat;
-    background-position:left bottom;
+    background-position:center bottom;
     height:2040px;
     margin-bottom:30px;
 }
@@ -354,6 +360,12 @@ body{
     padding:10px 0;
 }
 
+.mainCon03 .moreBtn a:hover{
+    background:#013c8c;
+    color:#fff;
+    transition:0.5s;
+}
+
 
 /*메인컨텐츠04*/
 .mainCon04{
@@ -381,6 +393,8 @@ body{
     line-height:24px;
 }
 
+
+
 /*메인컨텐츠05*/
 .mainCon05{
     position:relative;
@@ -398,7 +412,7 @@ body{
     position:absolute;
     background:url(../images/ball01.png) no-repeat;
     top:-300px;
-    left:-200px;
+    right:-200px;
     width:582px;
     height:582px;
     text-indent:-9999px;
@@ -424,8 +438,8 @@ body{
 .mainCon05 .circle04{
     position:absolute;
     background:url(../images/ball04.png) no-repeat;
-    bottom:0px;
-    right:-200px;
+    bottom:-100px;
+    right:-300px;
     width:786px;
     height:786px;
     text-indent:-9999px;
@@ -443,8 +457,8 @@ body{
 .mainCon05 .circle06{
     position:absolute;
     background:url(../images/ball08.png) no-repeat;
-    top:0px;
-    right:50px;
+    left:380px;
+    bottom:200px;
     width:150px;
     height:150px;
     text-indent:-9999px;

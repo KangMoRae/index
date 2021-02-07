@@ -25,12 +25,18 @@
     float:left;
     writing-mode:vertical-lr;
 }
+.gnb li a{
+}
+
+.gnb li a:hover{
+    color:#ef4923;
+}
+
 
 /*푸터*/
 #footer{
     background:#212121;
     width:100%;
-    height:200px;
     text-align:center;
 }
 #footer img{
@@ -43,4 +49,5 @@
     color:#f1f1f1;
     font-size:14px;
     font-weight:100;
+    padding-bottom:30px;
 }
