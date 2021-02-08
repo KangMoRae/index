@@ -223,7 +223,7 @@ body{
 .mainCon02{
     margin-top:120px;
     background:url(../images/con02mainImg.png) no-repeat;
-    background-position:center bottom;
+    background-position:bottom;
     height:2040px;
 }
 .mainCon02 .inner{
@@ -296,7 +296,7 @@ body{
 .mainCon03{
     margin-top:120px;
     background:url(../images/con03mainImg.png) no-repeat;
-    background-position:center bottom;
+    background-position:bottom;
     height:2040px;
     margin-bottom:30px;
 }
