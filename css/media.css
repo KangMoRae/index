@@ -1,1 +1,243 @@
 @charset "utf-8";
+/*웹뷰에서 안보임*/
+.{display:none;}
+
+/*웹공통*/
+body{min-width:auto;}
+
+@media screen and (max-width:768px){
+    .inner{width:auto;}
+  
+    /*모바일에서 보임*/
+    .{display:block;}
+    
+    /*모바일에서 안보임*/
+    #header,.circle04,.wBtn{display:none;}
+    
+    body{overflow-x:hidden;}
+    body br{
+	   display:none;
+    }
+    
+    /*메인슬라이더*/
+    .mainSlider{
+        height:600px;
+    }
+    .mainSlider h1{font-size:60px;}
+    .mainSlider h2{font-size:30px;}
+    
+    .mainTxt{
+        padding:200px 0;
+    }
+    
+    .macImg{
+        background-size:100%;
+        width:50%;
+        bottom:-240px;
+        left:-30px;
+    }
+    .mainSlider .circle01{
+        background-size:50%;
+        left:-110px;
+        top:-150px;
+        transition:all 4s;
+    }
+    .mainSlider .circle05{
+        display:none;
+    }
+    .mainSlider .circle02{
+        display:none;
+    }
+    .mainSlider .circle06{
+        right:-70px;
+    }
+    .mainSlider .aquaImg{
+        background-size:100%;
+        width:50%;
+        bottom:-180px;
+        right:-50px;
+    }
+    
+    /*메인컨텐츠01*/
+    .con01Box01{
+        margin:0 5%;
+    }
+    .con01Box01 img{
+        width:100%;
+        float:none;
+    }
+    .logoTxt{
+        padding:10% 0;
+        padding-bottom:5%;
+        text-align:center;
+    }
+    .logoTxt h2{
+        font-size:26px;
+    }
+    .logoTxt p{
+        font-size:15px;
+        padding-top:20px;
+        word-break:keep-all;
+    }
+    
+    .con01Box02{
+        padding:10% 10%;
+        padding-top:5%;
+        padding-bottom:5%;
+    }
+    .eduTxt{
+        word-break:keep-all;
+    }
+    .skillList{
+        position:static;
+        padding:0 10%;
+    }
+    
+    
+    /*메인컨텐츠02*/
+    .mainCon02{
+        background-size:200%;
+        background-position:30% 43%;
+        margin-top:50px;
+        height:auto;
+        
+    }
+    .con02Img{
+        width:100%;
+        text-align:center;
+        padding-bottom:30px;
+    }
+    .con02Img img{
+        position:static;
+        width:70%;
+    }
+    .con02Txt{
+        position:static;
+        padding:0 10%;
+        word-break:keep-all;
+    }
+    .con02Txt h2{
+        font-size:26px;
+        padding-bottom:20px;
+    }
+    
+    .pColor{
+        padding-bottom:570px;
+    }
+    .moreBtn{
+        position:static;
+    }
+    .moreBtn ul{
+    }
+    .moreBtn li{
+        float:none;
+        margin:0 auto;
+    }
+    .moreBtn a{
+        
+    }
+    
+    /*메인컨텐츠03*/
+    .mainCon03{
+        margin-top:70px;
+        background-size:200%;
+        background-position:30% 50%;
+        height:auto;
+    }
+    .con03Img{
+        width:100%;
+        text-align:center;
+        padding-bottom:30px;
+    }
+    .con03Img img{
+        position:static;
+        width:70%;
+    }
+    
+    .con03Txt{
+        position:static;
+        padding:0 10%;
+        word-break:keep-all;
+    }
+    .con03Txt h2{
+        font-size:26px;
+        padding-bottom:20px;
+    }
+    
+    .mBtn2{
+
+    }
+    .mBtn2 ul{
+
+    }
+    .mBtn2 li{
+        width:100%;
+        margin:0 auto;
+    }
+    
+    
+    /*메인컨텐츠04*/
+    .mainCon04{
+        padding-top:30px;
+        background-size:240%;
+        background-position:60% 40%;
+        height:auto;
+        
+    }
+    
+    .con04Txt{
+        padding-top:80px;
+        padding:0 10%;
+    }
+    .con04Txt h2{
+        font-size:26px;
+        text-align:center;
+    }
+    .con03Txt2{
+        margin-top:470px;
+    }
+    
+    /*메인컨텐츠05*/
+    .mainCon05{
+        height:330px;
+    }
+    .con05Txt h2{
+        font-size:50px;
+        padding-top:100px;
+        text-align:center;
+        margin-right:0;
+    }
+    
+    .circle2 .circle01{
+        width:30%;
+    }
+    
+    .circle2 .circle02{
+        top:10px;
+        left:-30px;
+        display:none;
+    }
+    
+    .circle2 .circle04{
+        display:none;
+    }
+    .circle2 .circle05{
+        bottom:0px;
+        left:30px;
+    }
+    
+    .mainCon05 .aquaImg{
+        top:10px;
+        right:-30px;
+        background-size:30%;
+        background-position:100% 60%;
+    }
+    
+    /*푸터*/
+    #footer img{
+        margin-top:20px;
+    }
+    #footer p{
+        margin-top:10px;
+        padding-bottom:20px;
+    }

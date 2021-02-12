@@ -154,6 +154,7 @@ body{
 }
 .con01Box01 img{
     float:left;
+    padding-top:30px;
 }
 
 .logoTxt{
@@ -172,7 +173,7 @@ body{
 
 .con01Box02{
     padding-left:90px;
-    padding-top:90px;
+    padding-top:50px;
 }
 .con01Box02 h4{
     font-size:18px;
@@ -206,7 +207,7 @@ body{
 
 .skillList{
     position:absolute;
-    top:55%;
+    top:52%;
     left:30%;
 }
 .skillList h4{
@@ -290,7 +291,6 @@ body{
     color:#fff;
     transition:0.5s;
 }
-
 
 /*메인컨텐츠02*/
 .mainCon03{
