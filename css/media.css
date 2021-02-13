@@ -17,8 +17,7 @@ body{min-width:auto;}
     body{
         overflow-x:visible;
     }
-    #wrap{
-        overflow-x:hidden;
+    .overflowWrap{
     }
     body br{
 	   display:none;
@@ -36,26 +35,26 @@ body{min-width:auto;}
     .mainSlider h2{font-size:30px;}
     
     .mainTxt{
-        padding:200px 0;
+        padding:180px 0;
     }
     
     .macImg{
         background-size:100%;
         width:50%;
-        bottom:-240px;
+        bottom:-200px;
         left:-30px;
     }
     .circle{
-        overflow-x:hidden;
     }
     .circle2{
-        overflow-x:hidden;
     }
     .mainSlider .circle01{
-        background-size:50%;
+        background-size:90%;
         left:-110px;
-        top:-150px;
+        top:-130px;
         transition:all 4s;
+        width:300px;
+        height:300px;
     }
     .mainSlider .circle05{
         display:none;
@@ -65,11 +64,12 @@ body{min-width:auto;}
     }
     .mainSlider .circle06{
         right:-70px;
+        bottom:310px;
     }
     .mainSlider .aquaImg{
         background-size:100%;
         width:50%;
-        bottom:-180px;
+        bottom:-160px;
         right:-50px;
     }
     
