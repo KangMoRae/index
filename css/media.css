@@ -14,10 +14,19 @@ body{min-width:auto;}
     /*모바일에서 안보임*/
     #header,.circle04,.wBtn{display:none;}
     
-    body{overflow-x:hidden;}
+    body{
+        overflow-x:visible;
+    }
+    #wrap{
+        overflow-x:hidden;
+    }
     body br{
 	   display:none;
     }
+    
+    #container{
+    }
+    
     
     /*메인슬라이더*/
     .mainSlider{
@@ -35,6 +44,12 @@ body{min-width:auto;}
         width:50%;
         bottom:-240px;
         left:-30px;
+    }
+    .circle{
+        overflow-x:hidden;
+    }
+    .circle2{
+        overflow-x:hidden;
     }
     .mainSlider .circle01{
         background-size:50%;
@@ -210,6 +225,7 @@ body{min-width:auto;}
     
     .circle2 .circle01{
         width:30%;
+        display:none;
     }
     
     .circle2 .circle02{
