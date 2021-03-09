@@ -19,14 +19,16 @@
 .gnb{
     position:absolute;
     right:0;
-    top:100px;
+    top:120px;
 }
 .gnb li{
     margin-bottom:50px;
     float:left;
     writing-mode:vertical-lr;
+    font-size:20px;
 }
 .gnb li a{
+    color:#222222;
 }
 
 .gnb li a:hover{
@@ -36,7 +38,6 @@
 
 /*푸터*/
 #footer{
-    background:#212121;
     width:100%;
     text-align:center;
 }
@@ -47,7 +48,7 @@
 }
 #footer p{
     margin-top:20px;
-    color:#f1f1f1;
+    color:#000;
     font-size:14px;
     font-weight:100;
     padding-bottom:30px;
