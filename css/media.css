@@ -140,7 +140,7 @@ body{min-width:auto;}
         text-align:center;
     }
     .con00Img{
-        margin-left:3%;
+        margin-left:4.5%;
     }
     
     .con00Img ul{
@@ -157,6 +157,16 @@ body{min-width:auto;}
         border-radius:25%;
     }
     .con00Img>li:nth-child(2n){
+    }
+    
+    .con00Img p{
+        font-size:18px;
+        padding-top:60px;
+    }
+    
+    .con00Img p span{
+        font-size:14px;
+        display:block;
     }
     
     /*팝업내용*/
