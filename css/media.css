@@ -74,6 +74,31 @@ body{min-width:auto;}
     }
     
     /*메인컨텐츠01*/
+    .mainCon01{
+        margin-bottom:70px;
+    }
+    .mainCon01 h2{
+        font-size:40px;
+        text-align:center;
+    }
+    
+    .con01Img{
+        position:static;
+        text-align:center;
+        padding-top:20px;
+    }
+    
+    .con01Img img{
+        width:80%;
+    }
+    
+    .con01Box02{
+        padding-top:
+    }
+    .con01Box02 h4{
+        margin:20px 0;
+    }
+    
     .con01Box01{
         margin:0 5%;
     }
@@ -96,30 +121,127 @@ body{min-width:auto;}
     }
     
     .con01Box02{
-        padding:10% 10%;
+        padding:10% 8%;
         padding-top:5%;
         padding-bottom:5%;
+        word-break:keep-all;
     }
     .eduTxt{
-        word-break:keep-all;
     }
     .skillList{
         position:static;
-        padding:0 10%;
     }
     
+    /*메인컨텐츠00*/
+    .mainCon00{
+    }
+    .mainCon00 h2{
+        font-size:40px;
+        text-align:center;
+    }
+    .con00Img{
+        margin-left:3%;
+    }
+    
+    .con00Img ul{
+    }
+    .con00Img>li{
+        width:165px;
+        height:165px;
+        margin-right:2%;
+        margin-bottom:2%;
+        border-radius:25%;
+    }
+
+    .con00Img>li a{
+        border-radius:25%;
+    }
+    .con00Img>li:nth-child(2n){
+    }
+    
+    /*팝업내용*/
+    .popCon1{
+        width:300px;
+        height:500px;
+    }
+    .popCon1 img{
+        width:90%;
+        padding-top:150px;
+    }
+    .moreBtnP{
+        right:-30px;
+        top:10px;
+    }
+    
+    .popCon2{
+        width:300px;
+        height:500px;
+    }
+    .popCon2 img{
+        width:95%;
+        padding-top:70px;
+    }
+    
+    .popCon3{
+        width:300px;
+        height:500px;
+    }
+    .popCon3 img{
+        width:95%;
+        padding-top:70px;
+    }
+    
+    .popCon4{
+        width:300px;
+        height:500px;
+    }
+    .popCon4 img{
+        width:95%;
+        padding-top:60px;
+    }
+    
+    .popCon5{
+        width:300px;
+        height:500px;
+    }
+    .popCon5 img{
+        width:95%;
+        padding-top:50px;
+    }
+    
+    .popCon6{
+        width:300px;
+        height:500px;
+    }
+    .popCon6 img{
+        width:95%;
+        padding-top:150px;
+    }
+    
+    .popCon7{
+        width:300px;
+        height:500px;
+    }
+    .popCon7 img{
+        width:95%;
+        padding-top:150px;
+    }
     
     /*메인컨텐츠02*/
     .mainCon02{
         background-size:200%;
-        background-position:30% 43%;
-        margin-top:50px;
+        background-position:30% 46%;
+        margin-top:70px;
         height:auto;
-        
+    }
+    .mainCon02 h2{
+        font-size:40px;
+        text-align:center;
     }
     .con02Img{
         width:100%;
         text-align:center;
+        padding-top:30px;
         padding-bottom:30px;
     }
     .con02Img img{
@@ -132,8 +254,9 @@ body{min-width:auto;}
         word-break:keep-all;
     }
     .con02Txt h2{
-        font-size:26px;
-        padding-bottom:20px;
+        font-size:23px;
+        line-height:30px;
+        padding:0 10px;
     }
     
     .pColor{
@@ -156,8 +279,9 @@ body{min-width:auto;}
     .mainCon03{
         margin-top:70px;
         background-size:200%;
-        background-position:30% 50%;
+        background-position:30% 44%;
         height:auto;
+        margin-bottom:250px;
     }
     .con03Img{
         width:100%;
@@ -175,8 +299,13 @@ body{min-width:auto;}
         word-break:keep-all;
     }
     .con03Txt h2{
-        font-size:26px;
-        padding-bottom:20px;
+        font-size:23px;
+        line-height:30px;
+        padding:0 10px;
+    }
+    
+    .con03Txt>span{
+        margin-left:40px;
     }
     
     .mBtn2{
@@ -218,7 +347,6 @@ body{min-width:auto;}
     }
     .con05Txt h2{
         font-size:50px;
-        padding-top:100px;
         text-align:center;
         margin-right:0;
     }
@@ -239,16 +367,28 @@ body{min-width:auto;}
     }
     .circle2 .circle05{
         bottom:0px;
-        left:30px;
+        left:-20px;
+        padding-bottom:160px;
     }
     
     .mainCon05 .aquaImg{
-        top:10px;
+        top:-290px;
         right:-30px;
         background-size:30%;
         background-position:100% 60%;
     }
     
+    .con05Txt02{
+        padding-top:60px;
+    }
+    
+    .con05Txt02 h4{
+        font-size:28px;
+        padding-bottom:10px;
+    }
+    .con05Txt02 p{
+        font-size:16px;
+    }
     /*푸터*/
     #footer img{
         margin-top:20px;
